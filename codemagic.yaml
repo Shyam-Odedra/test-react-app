@@ -15,7 +15,7 @@ workflows:
         - push
       branch_patterns:
         - pattern: develop
-           include: false
+          include: false
       cancel_previous_builds: true
     scripts:
       - name: Install npm dependencies for Ionic Capacitor project
